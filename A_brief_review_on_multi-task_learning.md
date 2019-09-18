@@ -19,6 +19,7 @@
 # 2 多任务学习算法表述  
 &emsp;&emsp;传统MTL算法的典型表示：  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/Formulation_of_MTL_algorithms.png"/></div>  
+
 &emsp;&emsp;Xm：第m个任务的输入  
 &emsp;&emsp;ym:第m个任务的输出  
 &emsp;&emsp;wm：第m个任务的参数  
@@ -32,11 +33,16 @@
 ## 2.1MTL不同的数据保真度项  
 &emsp;&emsp;MTL包括三种：SIMO、MISO、MIMO  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/MTL_different_data_fidelity_terms.png"/></div>  
+
 ### 2.1.1MISO  
 均方损失函数、洛吉斯特损失函数、合页损失函数分别如下：  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/mean_square_loss_for_miso.png"/></div>  
+
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/logistic_loss_for_miso.png"/></div>  
+
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/hinge_loss_for_miso.png"/></div>  
+
 ### 2.1.2SIMO
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/mean_square_loss_for_simo.png"/></div>  
+
 &emsp;&emsp;C：表示目标y值的个数
