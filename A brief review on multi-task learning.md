@@ -19,7 +19,7 @@
 # 2 多任务学习算法表述
 &emsp;&emsp;传统MTL算法的典型表示：  
 ![Formulation of MTL algorithms](https://i.imgur.com/8daFzTA.png)  
-![](../Papers/pictures/A brief review on multi-task learning/Formulation of MTL algorithms.png)  
+![](./Papers/pictures/A brief review on multi-task learning/Formulation of MTL algorithms.png)  
 &emsp;&emsp;Xm：第m个任务的输入  
 &emsp;&emsp;ym:第m个任务的输出  
 &emsp;&emsp;wm：第m个任务的参数  
