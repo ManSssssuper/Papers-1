@@ -35,6 +35,7 @@
 ### 2.1.1MISO  
 均方损失函数、洛吉斯特损失函数、合页损失函数分别如下：  
 ![](./pictures/A_brief_review_on_multi-task_learning/mean_square_loss_for_miso.png)  
+<img src="./pictures/A_brief_review_on_multi-task_learning/mean_square_loss_for_miso.png" div align=center />  
 ![](./pictures/A_brief_review_on_multi-task_learning/logistic_loss_for_miso.png)  
 ![](./pictures/A_brief_review_on_multi-task_learning/hinge_loss_for_miso.png)  
 ### 2.1.2SIMO
