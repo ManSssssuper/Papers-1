@@ -19,7 +19,7 @@
 # 2 多任务学习算法表述
 &emsp;&emsp;传统MTL算法的典型表示：  
 ![Formulation of MTL algorithms](https://i.imgur.com/8daFzTA.png)  
-![](./Papers/pictures/A brief review on multi-task learning/Formulation of MTL algorithms.png)  
+![](./pictures/A%20brief%20review%20on%20multi-task%20learning/Formulation%20of%20MTL%20algorithms.png)  
 &emsp;&emsp;Xm：第m个任务的输入  
 &emsp;&emsp;ym:第m个任务的输出  
 &emsp;&emsp;wm：第m个任务的参数  
@@ -30,14 +30,14 @@
 &emsp;&emsp;Nm：第m个任务的样本数量  
 &emsp;&emsp;D：每个输入矩阵特征的数量  
 &emsp;&emsp;Assumption：所有任务输入的特征维度相同，但样本数量可以不同
-##2.1MTL不同的数据保真度项
+## 2.1MTL不同的数据保真度项
 &emsp;&emsp;MTL包括三种：SIMO、MISO、MIMO  
 ![](https://i.imgur.com/vJuqZdS.png)
-###2.1.1MISO
+### 2.1.1MISO
 均方损失函数、洛吉斯特损失函数、合页损失函数分别如下：
 ![](https://i.imgur.com/5qEgfb6.png)  
 ![](https://i.imgur.com/zqyfarp.png)  
 ![](https://i.imgur.com/R9gT5hw.png)
-###2.1.2SIMO
+### 2.1.2SIMO
 ![](https://i.imgur.com/qXoM71d.png)
 &emsp;&emsp;C：表示目标y值的个数
