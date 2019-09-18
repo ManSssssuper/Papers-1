@@ -26,6 +26,6 @@
 # 2 多任务学习算法表述
 &emsp;&emsp;传统MTL算法的典型表示：
 
-<div align=center>![Formulation of MTL algorithms](https://i.imgur.com/8daFzTA.png)
+![Formulation of MTL algorithms](https://i.imgur.com/8daFzTA.png)
 
 
