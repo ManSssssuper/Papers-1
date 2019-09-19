@@ -55,3 +55,28 @@
 
 &emsp;&emsp;lasso约束也就是l1正则化，正则化参数λ越大，模型权重矩阵越稀疏（过滤掉无用特征）。但是lasso约束并没有充分利用任务间的关联性，通常将其和其他约束一起使用，因此产生很多变种。  
 ### 2.2.2 组稀疏约束  
+#### &emsp;&emsp;*范数的内容在文章后面有讲解*  
+
+&emsp;&emsp;l2,1-范数  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/l21norm.png"/></div>  
+
+&emsp;&emsp;其中，  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/l21.png"/></div>  
+
+&emsp;&emsp;lp,q-范数  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/lpq-norm.png"/></div>  
+
+&emsp;&emsp;其中，  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/lpq.png"/></div>  
+
+&emsp;&emsp;Capped lp,1-范数  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/capped_p1norm.png"/></div>  
+
+&emsp;&emsp;Multi-level lasso  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/multi_level_lasso.png"/></div>  
+
+&emsp;&emsp;Structured group lasso  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/structured_group_lasso.png"/></div>  
+
+&emsp;&emsp;Temporal group Lasso  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/temporal_group_lasso.png"/></div>  
