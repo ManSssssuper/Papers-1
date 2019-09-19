@@ -57,26 +57,39 @@
 ### 2.2.2 组稀疏约束  
 #### &emsp;&emsp;*范数的内容在文章后面有讲解*  
 
-&emsp;&emsp;l2,1-范数  
+##### &emsp;&emsp;l2,1-范数  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/l21norm.png"/></div>  
 
 &emsp;&emsp;其中，  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/l21.png"/></div>  
 
-&emsp;&emsp;lp,q-范数  
+##### &emsp;&emsp;lp,q-范数  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/lpq-norm.png"/></div>  
 
 &emsp;&emsp;其中，  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/lpq.png"/></div>  
 
-&emsp;&emsp;Capped lp,1-范数  
+##### &emsp;&emsp;Capped lp,1-范数  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/capped_p1norm.png"/></div>  
 
-&emsp;&emsp;Multi-level lasso  
+##### &emsp;&emsp;Multi-level lasso  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/multi_level_lasso.png"/></div>  
 
-&emsp;&emsp;Structured group lasso  
+##### &emsp;&emsp;Structured group lasso  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/structured_group_lasso.png"/></div>  
 
-&emsp;&emsp;Temporal group Lasso  
+##### &emsp;&emsp;Temporal group Lasso  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/temporal_group_lasso.png"/></div>  
+
+### 2.2.3 low-rank 约束  
+&emsp;&emsp;使用共享低维子空间代替使用组稀疏约束来提取任务之间的关系。核心就是核范数。  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/low_rank_constraint.png"/></div>  
+
+### 2.2.4 不相关任务的MTL  
+### 2.2.5 图拉普拉斯算子正则化
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/graph_laplacian_regularization.png"/></div>  
+
+
+## 扩充1：范数  
+L1、L2、L0、L2,1、Lp,q、L*
+## 扩充2：图拉普拉斯算子  
