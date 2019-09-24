@@ -86,10 +86,21 @@
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/low_rank_constraint.png"/></div>  
 
 ### 2.2.4 不相关任务的MTL  
-### 2.2.5 图拉普拉斯算子正则化
+### 2.2.5 图拉普拉斯算子正则化  
 <div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/graph_laplacian_regularization.png"/></div>  
 
+## 2.3 不同的MTL已分解的权重矩阵的正则化矩阵方法  
+### W=P+Q  
+### W=BA  
+### W=P+BA  
+# 3 不完整数据进行多任务学习  
+# 4 使用深度学习的多任务学习  
+<div align=center><img src="./pictures/A_brief_review_on_multi-task_learning/deep_learning_mtl.png"/></div>  
 
 ## 扩充1：范数  
-L1、L2、L0、L2,1、Lp,q、L*
+L1、L2、L0、L2,1、Lp,q、L*  
+
+&emsp;&emsp;[详细讲解看这里](https://blog.csdn.net/zhouxinxin0202/article/details/78620898)  
+### 范数扩充-矩阵最大特征值和矩阵奇异值  
+
 ## 扩充2：图拉普拉斯算子  
