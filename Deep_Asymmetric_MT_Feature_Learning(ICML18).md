@@ -48,3 +48,21 @@ Btt=0，bt是Bt的第一行，bt(1*T，一行T列)控制从任务t到其他任�
 &emsp;&emsp;之后论证了该方法不可行：w3由w1和w2通过B进行线性组合而来，**进而可以影响l1**（？？？？没搞懂），l1最终会被污染，进而影响可靠模型。  
 &emsp;&emsp;然后作者说他们提出了一种可以防止从任务预测器到潜在特征的负迁移的新的正则化方法，称之为非对称任务到基的转换。上图c，潜在特征仅由可靠预测其的参数重构。同时因为预测器的参数是从潜在特征重构而来，因此将这种正则化方法称为自编码器。  
 ## 3.2 非线性特征重构  
+&emsp;&emsp;首先，作者说有两个问题需要解决：1、重构需要用非线性的方式，给出的理由是*in Figure 2(c).In this case, the linear span of {w1 ,w2 } does not cover any of {l1,l2,l3}.* **没看懂**  ；2、重建需要在特征空间完成，而不是参数的基，因为需要将方法直接运用到深度神经网络当中。  
+&emsp;&emsp;L和S分别为第一层第二层的参数，隐藏层的非线性用ReLU表示，Z=ReLU(XL)，AMTFL公式如下：  
+<div align=center><img src="./pictures/Deep_Asymmetric_MT_Feature_Learning(ICML18)/amtfl.png"/></div>  
+
+&emsp;&emsp;deep_AMTFL公式如下：  
+<div align=center><img src="./pictures/Deep_Asymmetric_MT_Feature_Learning(ICML18)/deep_amtfl.png"/></div>  
+
+&emsp;&emsp;其中z（表示L-1层的隐藏表示）和loss如下：  
+<div align=center><img src="./pictures/Deep_Asymmetric_MT_Feature_Learning(ICML18)/z_loss.png"/></div>  
+
+&emsp;&emsp;最后讲了讲损失函数，选择常用的即可。  
+
+# 4 实验  
+&emsp;&emsp;实验部分对浅层和深层AMTFL分别做了实验。浅层实验：一个人造数据集，去除AMTFL表层的ReLu，因为特征是线性的。比较了几个算法的bases、tasks、然后使用了真实数据集进行比较，深层实验类似。最后对实验结果进行了定量分析（Quantitative evaluation）和定性分析（Quanlitative analysis）。  
+# 5 总结  
+&emsp;&emsp;巴拉巴拉  
+# 6 理解  
+**无T_T**
