@@ -44,6 +44,6 @@
 <div align=center><img src="./pictures/Gradient_Normalization_for_Adaptive_Loss_Balancing_in_Deep_Multitask_Networks/algorithm.png"/></div>  
 
 # 4 A Toy Example  
-
+我们先假设一个
 # 5 实验部分  
 # 6 总结  
