@@ -43,7 +43,14 @@
 &emsp;&emsp;算法流程如下：  
 <div align=center><img src="./pictures/Gradient_Normalization_for_Adaptive_Loss_Balancing_in_Deep_Multitask_Networks/algorithm.png"/></div>  
 
-# 4 A Toy Example  
-我们先假设一个
+# 4 A Toy Example（一个小例子？）  
+&emsp;&emsp;一种通用的情况是：所有任务具有相同的损失函数，但是损失大小不同。如果设置所有的损失权重为1，那么网络训练将会被具有较大损失的任务所支配，这些任务都反向传播较大的梯度，GradNorm可以解决上述问题。  
+&emsp;&emsp;T个回归任务用标准平方损失训练，如下：  
+<div align=center><img src="./pictures/Gradient_Normalization_for_Adaptive_Loss_Balancing_in_Deep_Multitask_Networks/standard_squared_loss.png"/></div>  
+
+&emsp;&emsp;其中，tanh(.)是element-wise。输入250维，输出100维。B和ε是常量矩阵，其生成于N(0,10)和N(0,3.5)且独立同分布（IID，independently identically distribution），每个任务共享B，独有ε。δi是问题关键参数，固定尺度用于决定fi输出的比例。δ高的任务将主导训练过程，其难训练，且反向传播梯度大，会导致次优的训练动态。  
+&emsp;&emsp;模型训练采用4层Dense(100,ReLU)，最终预测T个值。α设置为0.12。然后呢，模型训练了2个任务及10个任务，将GradNorm与固定wi进行比较，极大提高了时间性能，以及与2017不确定权重方法进行比较，2017方法开始训练很快，但是很快退化，因为其不确定性的权重变化毫无约束，而GradNorm有约束。
 # 5 实验部分  
+&emsp;&emsp;做了很多实验  
 # 6 总结  
+&emsp;&emsp;像GradNorm这样的算法可能会有除多任务学习的应用。扩展GradNorm方法来处理类平衡和序列到序列模型仍是研究点，因为在所有存在梯度信号冲突的情况下都会降低模型的性能。梯度调优是在复杂任务上训练大型有效模型的基础。

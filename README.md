@@ -32,6 +32,13 @@
       <td>Gradient_Normalization_for_Adaptive_Loss_Balancing_in_Deep_Multitask_Networks</td>
       <td>Zhao Chen 1 Vijay Badrinarayanan 1 Chen-Yu Lee 1 Andrew Rabinovich 1</td>
 	  <td>9/26/2019 12:38:55 PM </td>
+	  <td>9/29/2019 1:49:46 PM </td>
+	  <td>-</td>
+  </tr>
+  <tr>
+      <td>Pseudo-task_Augmentation_From_Deep_Multitask_Learning_to_Intratask_Sharing_and_Back</td>
+      <td>Elliot Meyerson 1 2 Risto Miikkulainen 1 2</td>
+	  <td>9/29/2019 1:54:57 PM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
