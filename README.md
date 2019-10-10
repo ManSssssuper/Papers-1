@@ -46,6 +46,12 @@
       <td>Modeling_Task_Relationships_in_MTL_with_Multi-gate_Mixture-of-Experts</td>
       <td>Jiaqi Ma 1∗ , Zhe Zhao 2 , Xinyang Yi 2 , Jilin Chen 2 , Lichan Hong 2 , Ed H. Chi 2</td>
 	  <td>10/8/2019 3:36:50 PM </td>
+	  <td>10/10/2019 1:28:20 PM </td>
+	  <td>-</td>
+  </tr>
+<td>Multi-Task_Networks_With_Universe_Group_and_Task_Feature_Learning</td>
+      <td>Shiva Pentyala ∗</td>
+	  <td>10/10/2019 1:29:11 PM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
