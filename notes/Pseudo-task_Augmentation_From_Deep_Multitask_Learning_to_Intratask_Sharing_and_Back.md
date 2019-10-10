@@ -39,9 +39,9 @@
 &emsp;&emsp;每一个伪任务定义如下：  
 <div align=center><img src="./pictures/Pseudo-task_Augmentation_From_Deep_Multitask_Learning_to_Intratask_Sharing_and_Back/7.png"/></div>  
 
-####定义一  
+#### 定义一  
 &emsp;&emsp;一组伪任务S1在F上模拟另一个S2，如果对于所有F，用S1训练时对F的梯度更新等于用S2训练时对F的梯度更新。  
-####定理一  
+#### 定理一  
 &emsp;&emsp;增强训练动力：存在可微函数F和单个任务的伪任务集无法被该任务的单个伪任务模拟，即使所有解码器都是线性的。  
 &emsp;&emsp;本文最大贡献感觉就是证明了这一点  
 &emsp;&emsp;θF更新过程如下：  
