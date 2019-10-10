@@ -39,6 +39,13 @@
       <td>Pseudo-task_Augmentation_From_Deep_Multitask_Learning_to_Intratask_Sharing_and_Back</td>
       <td>Elliot Meyerson 1 2 Risto Miikkulainen 1 2</td>
 	  <td>9/29/2019 1:54:57 PM </td>
+	  <td>10/8/2019 3:36:44 PM </td>
+	  <td>-</td>
+  </tr>
+  <tr>
+      <td>Modeling_Task_Relationships_in_MTL_with_Multi-gate_Mixture-of-Experts</td>
+      <td>Jiaqi Ma 1∗ , Zhe Zhao 2 , Xinyang Yi 2 , Jilin Chen 2 , Lichan Hong 2 , Ed H. Chi 2</td>
+	  <td>10/8/2019 3:36:50 PM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
