@@ -23,3 +23,19 @@
 <div align=center><img src="./pictures/Multi-Task_Networks_With_Universe_Group_and_Task_Feature_Learning/4.png"/></div>  
 
 ## 2.3 单任务体系的编码器-解码器的例子  
+&emsp;&emsp;JOINT-SF-IC结构如下：  
+<div align=center><img src="./pictures/Multi-Task_Networks_With_Universe_Group_and_Task_Feature_Learning/5.png"/></div>  
+
+&emsp;&emsp;看上图就是一个slot序列的预测和一个整体的目的标签的预测，下面是个BiLSTM，上面是个CRF层。  
+&emsp;&emsp;ys和yi的激活函数如下：  
+<div align=center><img src="./pictures/Multi-Task_Networks_With_Universe_Group_and_Task_Feature_Learning/7.png"/></div>  
+
+<div align=center><img src="./pictures/Multi-Task_Networks_With_Universe_Group_and_Task_Feature_Learning/8.png"/></div>  
+
+&emsp;&emsp;联合优化目标函数如下：  
+<div align=center><img src="./pictures/Multi-Task_Networks_With_Universe_Group_and_Task_Feature_Learning/6.png"/></div>  
+
+# 3 实验设置  
+&emsp;&emsp;Alexa数据集、设置了基线等。其中，基线包括几个已存的模型和几个parallel，很明显作者在原文里写到，这几个模型与自己的模型相似，不过是简化版，说明作者不过是对原模型进行了修改，serial模型说白了只是为了体现不一样而改的名。  
+# 4 总结  
+&emsp;&emsp;这篇文章的主要创新点就是在使用了Group编码器，再一个就是做了比较详细的实验，所以论文实验很重要。  

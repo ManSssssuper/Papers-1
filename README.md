@@ -49,9 +49,17 @@
 	  <td>10/10/2019 1:28:20 PM </td>
 	  <td>-</td>
   </tr>
-<td>Multi-Task_Networks_With_Universe_Group_and_Task_Feature_Learning</td>
+  </tr>
+      <td>Multi-Task_Networks_With_Universe_Group_and_Task_Feature_Learning</td>
       <td>Shiva Pentyala ∗</td>
 	  <td>10/10/2019 1:29:11 PM </td>
+	  <td>10/12/2019 10:06:40 AM </td>
+	  <td>-</td>
+  </tr>
+  </tr>
+      <td>Deep_Multi-Task_Learning_with_Adversarial-and-Cooperative_Nets</td>
+      <td>Pei Yang 1,2 , Qi Tan 3 , Jieping Ye 4 , Hanghang Tong 2 and Jingrui He 2</td>
+	  <td>10/12/2019 10:12:00 AM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
