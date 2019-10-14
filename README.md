@@ -60,6 +60,13 @@
       <td>Deep_Multi-Task_Learning_with_Adversarial-and-Cooperative_Nets</td>
       <td>Pei Yang 1,2 , Qi Tan 3 , Jieping Ye 4 , Hanghang Tong 2 and Jingrui He 2</td>
 	  <td>10/12/2019 10:12:00 AM </td>
+	  <td>10/14/2019 2:24:28 PM </td>
+	  <td>-</td>
+  </tr>
+  </tr>
+      <td>Multiple Relational Attention Network for Multi-task Learning</td>
+      <td>Jiejie Zhao 1 , Bowen Du 1∗ , Leilei Sun 1 , Fuzhen Zhuang 2,3 , Weifeng Lv 1 , Hui Xiong 4</td>
+	  <td>10/14/2019 2:26:18 PM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
