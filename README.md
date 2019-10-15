@@ -67,6 +67,13 @@
       <td>Multiple Relational Attention Network for Multi-task Learning</td>
       <td>Jiejie Zhao 1 , Bowen Du 1∗ , Leilei Sun 1 , Fuzhen Zhuang 2,3 , Weifeng Lv 1 , Hui Xiong 4</td>
 	  <td>10/14/2019 2:26:18 PM </td>
+	  <td>10/15/2019 8:59:33 PM </td>
+	  <td>-</td>
+  </tr>
+  </tr>
+      <td>Multi-Task Learning as Multi-Objective Optimization</td>
+      <td>Ozan Sener Intel Labs Vladlen Koltun</td>
+	  <td>10/15/2019 9:03:37 PM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
