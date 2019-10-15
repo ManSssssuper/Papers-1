@@ -1,4 +1,5 @@
-# <center>Multiple Relational Attention Network for Multi-task Learning</center>
+# <center>Multiple Relational Attention Network for Multi-task Learning</center>  
+
 &emsp;&emsp;读这篇文章需要先理解什么是注意力机制  
 # 摘要  
 &emsp;&emsp;此文介绍了一种多任务学习的多关联注意网络MRAN（Multiple Relational Attention Network），这网络由三个注意网络构成，动态地学习任务关系而不是通过预定义地方式，因此避免了关系挖掘不充分以及关系预设不准确的问题。MRAN主要由三部分组成：1)任务-任务关系学习模块，自动地对任务关系进行限定，并自适应地控制正反两方面的知识转移;2)特征-特征交互学习模块，处理特征之间复杂的交互;3)任务-特征依赖学习模块，将相关特征与目标任务分别关联。  
