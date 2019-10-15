@@ -58,11 +58,11 @@
 &emsp;&emsp;过程如图所示：  
 <div align=center><img src="./pictures/Multiple_Relational_Attention_Network_for_Multi-task_Learning/14.png"/></div>  
 
-&emsp;&emsp;**训练阶段：**关联矩阵的计算与3.2节一样，不过是为Ho每一列计算，即为每一个任务计算。校准权重计算如下：  
+&emsp;&emsp;**训练阶段：** 关联矩阵的计算与3.2节一样，不过是为Ho每一列计算，即为每一个任务计算。校准权重计算如下：  
 <div align=center><img src="./pictures/Multiple_Relational_Attention_Network_for_Multi-task_Learning/13.png"/></div>  
 
 &emsp;&emsp;最终每个任务的新的特征表示与上述方法相同，先Hadamard，然后加入残差和批归一化。  
-&emsp;&emsp;**测试阶段：**得到校准权重后，直接根据残差和批归一化那一步计算任务专有特征表示。  
+&emsp;&emsp;**测试阶段：** 得到校准权重后，直接根据残差和批归一化那一步计算任务专有特征表示。  
 ## 3.5 预测层  
 &emsp;&emsp;这里就很简单了，就是在每个任务表征最后加了一个前馈子网络预测输出，包含两层ReLU。  
 <div align=center><img src="./pictures/Multiple_Relational_Attention_Network_for_Multi-task_Learning/15.png"/></div>  
