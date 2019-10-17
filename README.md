@@ -74,6 +74,13 @@
       <td>Multi-Task Learning as Multi-Objective Optimization</td>
       <td>Ozan Sener Intel Labs Vladlen Koltun</td>
 	  <td>10/15/2019 9:03:37 PM </td>
+	  <td>10/17/2019 3:36:18 PM </td>
+	  <td>-</td>
+  </tr>
+  </tr>
+      <td>Deep Decentralized Multi-task Multi-Agent Reinforcement Learning under Partial Observability</td>
+      <td>Shayegan Omidshafiei 1 Jason Pazis 1 Christopher Amato 2 Jonathan P. How 1 John Vian 3</td>
+	  <td>10/17/2019 3:36:22 PM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
