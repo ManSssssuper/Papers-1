@@ -81,6 +81,20 @@
       <td>Deep Decentralized Multi-task Multi-Agent Reinforcement Learning under Partial Observability</td>
       <td>Shayegan Omidshafiei 1 Jason Pazis 1 Christopher Amato 2 Jonathan P. How 1 John Vian 3</td>
 	  <td>10/17/2019 3:36:22 PM </td>
+	  <td>10/17/2019 7:36:14 PM </td>
+	  <td>约等于没看，不是研究领域相关</td>
+  </tr>
+  </tr>
+      <td>Dynamic Multi-Task Learning with Convolutional Neural Network</td>
+      <td>Yuchun Fang 1 , Zhengyan Ma 1 , Zhaoxiang Zhang 2,3,4,5∗ , Xu-Yao Zhang 3 , Xiang Bai 6</td>
+	  <td>10/17/2019 7:39:50 PM </td>
+	  <td>10/18/2019 11:46:30 AM </td>
+	  <td>-</td>
+  </tr>
+  </tr>
+      <td>Cross-stitch Networks for Multi-task Learning</td>
+      <td>Ishan Misra ∗ Abhinav Shrivastava ∗ Abhinav Gupta Martial Hebert/td>
+	  <td>10/18/2019 11:48:36 AM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
