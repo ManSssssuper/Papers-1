@@ -102,6 +102,13 @@
       <td>Deep multi-task learning with low level tasks supervised at lower layers</td>
       <td>Anders Søgaard Yoav Goldberg</td>
 	  <td>10/21/2019 3:31:05 PM </td>
+	  <td>10/21/2019 10:12:30 PM </td>
+	  <td>-</td>
+  </tr>
+  </tr>
+      <td>Routing networks adaptive selection of non-linear functions for multi-task learning</td>
+      <td>Clemens Rosenbaum</td>
+	  <td>10/21/2019 3:31:05 PM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
