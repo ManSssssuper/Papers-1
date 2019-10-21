@@ -108,7 +108,7 @@
   </tr>
       <td>Routing networks adaptive selection of non-linear functions for multi-task learning</td>
       <td>Clemens Rosenbaum</td>
-	  <td>10/21/2019 3:31:05 PM </td>
+	  <td>10/21/2019 10:19:01 PM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
