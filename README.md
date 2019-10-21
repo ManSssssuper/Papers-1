@@ -93,8 +93,15 @@
   </tr>
   </tr>
       <td>Cross-stitch Networks for Multi-task Learning</td>
-      <td>Ishan Misra ∗ Abhinav Shrivastava ∗ Abhinav Gupta Martial Hebert/td>
+      <td>Ishan Misra ∗ Abhinav Shrivastava ∗ Abhinav Gupta Martial Hebert</td>
 	  <td>10/18/2019 11:48:36 AM </td>
+	  <td>10/21/2019 3:27:53 PM </td>
+	  <td>-</td>
+  </tr>
+  </tr>
+      <td>Deep multi-task learning with low level tasks supervised at lower layers</td>
+      <td>Anders Søgaard Yoav Goldberg</td>
+	  <td>10/21/2019 3:31:05 PM </td>
 	  <td>-</td>
 	  <td>-</td>
   </tr>
