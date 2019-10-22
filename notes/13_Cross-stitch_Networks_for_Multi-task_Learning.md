@@ -1,4 +1,4 @@
-# <center>Cross-stitch Networks for Multi-task Learning</center>  
+# <div align=center>Cross-stitch Networks for Multi-task Learning</div>  
 
 # 摘要  
 提出了十字绣单元，可以进行端到端的训练并且可以在多个任务之间进行泛化，训练样例很少的情况下，也有较好的效果。  

@@ -1,4 +1,4 @@
-# <center>Multi-Task Learning as Multi-Objective Optimization</center>  
+# <div align=center>Multi-Task Learning as Multi-Objective Optimization</div>  
 
 # 摘要  
 &emsp;&emsp;此文将多任务学习看作为本质上的多目标优化，因为确实，任务中可能存在竞争性的任务，为了减少损失，通常的做法是使多任务的损失线性加权和降到最小，但是本文将多任务学习视为多目标优化问题进行解决，目标是找到一个pareto最优解。此文提出了多目标损失的上界，并证明优化这个上界可以得到一个pareto最优解。  

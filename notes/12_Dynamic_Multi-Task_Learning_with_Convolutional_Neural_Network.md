@@ -1,4 +1,4 @@
-# <center>Dynamic Multi-Task Learning with Convolutional Neural Network</center>  
+# <div align=center>Dynamic Multi-Task Learning with Convolutional Neural Network</div>  
 
 # 摘要  
 此文提出了一种动态的多任务CNN学习网络结构，在任务层中间加入任务传输连接Task Transfer Connection(TTC)  

@@ -1,4 +1,4 @@
-# <center>Multiple Relational Attention Network for Multi-task Learning</center>  
+# <div align=center>Multiple Relational Attention Network for Multi-task Learning</div>  
 
 &emsp;&emsp;读这篇文章需要先理解什么是注意力机制  
 # 摘要  

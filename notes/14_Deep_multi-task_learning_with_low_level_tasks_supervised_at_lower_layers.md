@@ -1,5 +1,5 @@
 看了一遍我竟然没找到创新点...就只是再低层添加了监督学习吗？论文只有5页，ACL不是NLP的顶会吗...  
-# <center>Deep multi-task learning with low level tasks supervised at lower layers</center>  
+# <div align=center>Deep multi-task learning with low level tasks supervised at lower layers</div>  
 
 ## 摘要  
 提出了一种具有深度双向RNNs的多任务学习结构，不同的任务可以在不同的层次上进行监控。结果表明，在系统的最内层而非最外层进行位置监控效果更好。这是因为低层任务更好地保存在较低的层中，从而使较高层任务能够利用低层任务的共享表示。  
